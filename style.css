@@ -7,6 +7,9 @@ body {
 
 h1 {
     color: #333;
+    font-family: monospace;
+    text-align: center;
+    font-size: 50px;
 }
 
 button {
@@ -21,3 +24,17 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+#mainNumber {
+    text-align: center;
+    color: red;
+    font-size: 100px;
+}
+
+
+.button-group {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
