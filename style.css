@@ -38,3 +38,14 @@ button:hover {
       gap: 10px;
       margin-top: 10px;
     }
+
+.button-group button {
+  padding: 15px 25px;
+  background-color: lightseagreen;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
